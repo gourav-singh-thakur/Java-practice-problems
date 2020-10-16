@@ -24,7 +24,7 @@ public class Split
 		int j=0;
 		for(int i=0;i<ch.length;i++)
 		{
-			if(ch[i]!=32)
+			if(ch[i]!=' ')
 			{
 				arr[j]=arr[j]+ch[i];
 			}
@@ -41,5 +41,6 @@ public class Split
 		{
 			System.out.println(a);
 		}
+		
 	}
 }
